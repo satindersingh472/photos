@@ -1,0 +1,13 @@
+#box{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    div{
+        img{
+            height: 500px;
+            width: 500px;
+            object-fit: cover;
+        }
+    }
+}
