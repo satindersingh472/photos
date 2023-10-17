@@ -1,5 +1,5 @@
 function success_unsplash(response){
-  
+box['innerHTML'] = '';  
 for(let i = 0; i<response[`data`][`results`].length;i++){
     box[`innerHTML`] += `<div> <img src="${response[`data`][`results`][i][`urls`][`regular`]}"</div>`;
 }
